@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>The Batman Trilogy</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Zen+Dots&display=swap" rel="stylesheet">
+  </head>
+
+<!-- I have inserted a meta element that allows the page to be mobile-friendly and also
+linked the page to a css file to facilitate any further aesthetic modifications.-->
+
+  <body id="website"> <!-- I am placing all the content on the webpage inthe body and creating an ID for it
+    so that I can easily change the color and background image of the webpage.-->
+
+    <section class="header">
+      <h1 class="h1">THE BATMAN TRILOGY</h1>
+        <nav id="navbar">
+          <a href="begins.html"><img src="image/logo.jpg" alt="Batman Trilogy Logo"></a>
+          <div class="navlink">
+            <ul>
+              <li><a href="begins.html"> BATMAN BEGINS </a></li>
+              <li><a href="dark.html"> THE DARK KNIGHT </a></li>
+              <li><a href="rise.html"> BATMAN RISES </a></li>
+              <li><a href="extras.html"> EXTRAS </a></li>
+            </ul>
+          </div>
+        </nav>
+      </section>
+
+<!-- I have created a section and assigned it to a class named header. This means all elements classed as header wiill have the
+qualities of the page's header. This will be useful for the other pages. I also created the navigation bar under the
+header because I wanted the header to persist over the other pages. -->
+
+<!-- Next up is going to be the beginning of the webpage. By using sematic elements, I am going to place all elements that have a relationship
+with the synopsis in the a section element and give them class for many of these elements will have the same elements as the section below.
+I have also inserted images in this section and placed it in a float class as there will be many floating images on this and the other pages-->
+
+      <section class="leftsection">
+        <div>
+          <h1>SYNOPSIS</h1>
+          <img class="float-image-left" src="image/synopsimage.jpg" alt="Image of Batman" style="max-width: 100%">
+          <p>A young Bruce Wayne travels to the Far East, where he is trained in the martial arts by a member of the
+            mysterious League of Shadows, Henri Ducard.
+            <br>When Ducard reveals the League's true purpose, Wayne returns to Gotham with the intent of cleaning
+            up the city without resorting to murder.
+            <br>With the help of Alfred, his loyal butler, and Lucius Fox, a tech expert at Wayne Enterprises, Batman is born.</p>
+        </div>
+      </section>
+
+ <!-- The same classification made to the section above was made to the next two below, however one was inverted and the other
+ kept the same characteristics as the above. -->
+
+      <section class="rightsection">
+        <div>
+          <h1>BEGINNING</h1>
+          <img class="float-image-right" src="image/batmanbeginning.png" alt="Image of Batman meditating" style="max-width: 100%">
+          <p>The movie begins with a young Bruce Wayne falling into a well on the Wayne estate.
+            His father rappels down to get him after the young boy has been frightened by bats.
+            Fast forward 14 years and we see Bruce in prison in Bhutan for theft;
+            he was stealing Wayne Enterprises goods.
+            He meets Ducard, who bids him to come and train with him in The League of Shadows.
+            Bruce gets out of prison and ascends the highest mountain to find The League waiting for him. </p>
+            <p>He trains with them and must pass a final test in which he is under the influence of a hallucinogen.
+            He passes the test but learns that Ducard wants him to lead a group from The League into Gotham City in
+            order to destroy it so they can rebuild it from the ashes
+            Bruce then fights all of the trainees and kills a man he thinks is Ra's Al Ghul when the training temple
+            is destroyed. Ducard, who is knocked out cold, is saved by Bruce. </p>
+        </div>
+      </section>
+
+      <section class="leftsection">
+        <div>
+          <h1>MIDDLE</h1>
+          <img class="float-image-left" src="image/beginsfight.jpg" alt="Image of Batman Observing" style="max-width: 100%">
+          <p>Wayne returns to Gotham City in order to fight the crime and reclaim the city for good and he enlists Lucius Fox,
+            a Wayne Enterprises archivist who was also a good friend of Bruce's Dad.
+            In order to maintain a facade, Bruce pretends to be a playboy in public so no one will believe that he is the Batman
+            at night. Eventually Ra's Al Ghul comes to Gotham
+            and Bruce learns that Ducard is Al Ghul and was misdirecting him the entire time he trained him. </p>
+            <p>The League of Shadows seeks to contaminate Gotham's water supply with the help of Scarecrow, who is head of Arkham Asylum.
+            Scarecrow uses the hallucinogen from the training temple
+            in order to manipulate the minds of his patients, and The League is using it to contaminate Gotham's water.
+            Batman enlists the help of Detective Jim Gordon, the one trustworthy cop in the Gotham Police Department,
+            to help him stop the crime and eventually to stop The League from destroying the city. Batman is able to stop the attack
+            and defeat Ra's Al Ghul.
+            Batman reveals his identity to Rachel, his longtime best friend and the woman he loves. But she cannot be with him knowing that he is Batman. </p>
+        </div>
+      </section>
+
+      <section class="rightsection">
+        <div>
+          <h1>END</h1>
+          <img class="float-image-right" src="image/batsignal.jpg" alt="Image of the Bat-signal" style="max-width: 100%">
+          <p>The end of the film shows Gordon using the Bat-Signal to call for Batman who arrives on the roof of the building of the Police Department.
+             <br>Gordon tells Batman that there is a new criminal in town who leaves a calling card: a joker from a deck of cards.
+             <br>Batman says he will look into it and disappears into the night. </p>
+        </div>
+      </section>
+
+<!--By using sematic elements, I am going to place all elements that have a relationship with the trailer in the a section element and give them a
+unique ID as there's only going to be one trailer section on the page. -->
+
+      <section id="trailer">
+                <h1> MOVIE TRAILER </h1>
+                <p>The following clip is the official trailer of <a class="anchor" href="https://www.youtube.com/watch?v=neY2xVmOfUM&ab_channel=MovieclipsClassicTrailers"> Batman Begins</a>
+                </p>
+              <div class="video-trailer">
+                  <video controls style="max-width: 75%" poster="image/beginstrailer.jpg" style="max-width: 100%">
+                    <source src="video/beginstrailer.mp4" type="video/mp4">
+                    <source src="video/beginstrailer.ogv" type="video/ogv">
+                    <source src="video/beginstrailer.webm" type="video/webm">
+                      <p>Your browser does not support the video element? Please click <a class="anchor" href='video/beginstrailer.mp4'>here</a> to download an mp4 of the video.
+                      </p>
+                  </video>
+                </div>
+        </section>
+
+<!-- We can see from above that I inserted the anchor element into an anchor class as I said I would. I also inserted the video element/clip into a div element.
+I used the div because I want to be able to freely adjust the trailer without it impacting the entire trailer section.-->
+
+        <p>Click <a class="anchor" href="#website"> here </a> to go to the navigation bar.
+                </p>
+
+<!-- Before the footer, I have inserted an anchor element that directs to the navigation bar-->
+
+      <footer>
+        <p>SHADRACK ADDISON | P2603516 </p>
+      </footer>
+  </body>
+</html>

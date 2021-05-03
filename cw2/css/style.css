@@ -1,0 +1,155 @@
+#website{
+  background-image: url(../image/wallpaper.jpg); width: auto;
+  background-position: top;
+  background-size: cover;
+  position: center;
+  margin: 1px;
+  padding: 1px;
+}
+
+/* For the entire page, I wanted to have a background image of the batman logo. By choosing the background
+size to cover and center, it would cover the whole page in a central position as it expands. */
+
+.header{
+  min-height: inherit;
+  width: 100%;
+  align-content: center;
+}
+
+
+h1{
+  color: white;
+  font-size: 32px;
+  text-align: center;
+  font-family: 'Zen Dots';
+  text-shadow: #043380 1px 2px;
+}
+p {
+  color: white;
+  font-size: 20px;
+  text-shadow: black 1px 0.5px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: black;
+  margin: 10px;
+}
+
+/* I chose to have a header 1 and paragraphs on the page be identical as I wanted a consistent look on the website.
+The main font for the headers was a bold and it had a very outstanding look. The font for the paragraphs was chosen
+because of it's readability. The background colour for all paragraphs was set to zero as the color was white.*/
+
+#navbar{
+  display: flex;
+  padding: 0% 1%;
+  justify-content: space-between;
+  align-content: right;
+}
+.navlink ul li{
+  list-style: none;
+  padding: 2px 10px;
+  display: inline-block;
+  position: relative;
+}
+.navlink ul li::after{
+  content:"" ;
+  width: 0%;
+  height: 1px;
+  background: white;
+  display: block;
+  margin: auto;
+}
+.navlink ul li:hover::after{
+  width: 100%;
+  transition: 0.2s;
+}
+.navlink ul li a{
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  text-shadow: black 1px 2px;
+  font-family: 'Zen Dots', cursive;
+}
+
+/* Editing the navigation bar was time consuming as I had to insert a transition into it. I decided to flex the display and have the
+list of navigation menus in a non-style order without any background color. I separated them from one another by adding padding and
+adding a hover transition with an after mouse hover animation of 0.2 seconds. The animation would have a height of 1px with a white
+background being visible to the viewer. */
+
+.leftsection{
+  border: 0px white solid;
+  background-color: black;
+  display: grid;
+  border-radius: 1px 1px;
+  margin: 10px 10px;
+}
+
+.float-image-left{
+  float: left;
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+}
+
+/* All classes that had an image to the left would receive the following css: an invisible border, with a black background colour
+along with a radius of 10px from the edges of the screen. As for the images, the would float left of the text with a fixed
+size of 150px and margining 5px from the earlier positioned border. */
+
+.rightsection{
+  border: 0px white solid;
+  background-color: black;
+  display: grid;
+  border-radius: 1px 1px;
+  margin: 10px 10px;
+}
+
+.float-image-right{
+  float: right;
+  height: 150px;
+  width: 150px;
+  margin: 5px;
+}
+
+/* All classes that had an image to the right would receive the following css: an invisible border, with a black background colour
+along with a radius of 10px from the edges of the screen. As for the images, the would float right of the text with a fixed
+size of 150px and margining 5px from the earlier positioned border. */
+
+#trailer {
+  border: 0px white solid;
+  padding: 0px 25px 25px 25px;
+  margin: 10px;
+  text-align: center;
+}
+.videotrailer{
+  margin: 500px 500px 500px 500px;
+  padding: 10px;
+}
+
+/* All videos inserted in these webpages were ID'd as trailer and they had the following elements: a margin of 10px with a
+central text alignment */
+
+.cast ul li {
+  color: white;
+  font-size: 20px;
+  text-shadow: black 1px 0.5px;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  display: grid;
+  justify-content: center;
+  padding: 5px 5px 5px 5px;
+}
+
+.soundtrack{
+  background-color: black;
+  display: grid;
+  justify-content: center;
+}
+
+/* The cast list was inserted as class and had the following characteristics: a white text, as they were not a paragraph;
+a centralised grid display with a padding of 5px on all edges, making the list not collide with one another.
+The soundtrack had a black section background colour with a central placement */
+
+footer p{
+  text-align: center;
+}
+
+/* All text in the footer were aligned centrally to fit the website. */
